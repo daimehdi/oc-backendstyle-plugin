@@ -10,12 +10,13 @@
     display: inline-block;
     color: #999;
     vertical-align: top;
-    background: rgba(255,255,255,0.7);
+    background-color: #fff;
     padding: 10px;
 }
 #uxms-backend-theme-setting > a:hover {
     text-decoration: none;
     color: #555;
+    background-color: #fff;
 }
 #uxms-backend-theme-setting ul {
     background: rgba(255,255,255,0.8);
@@ -28,6 +29,7 @@
     padding: 10px;
     margin-left: -3px;
     display: none;
+    background-color: #fff;
 }
 #uxms-backend-theme-setting > ul > li {
     padding: 4px 0;
