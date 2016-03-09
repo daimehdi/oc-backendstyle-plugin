@@ -1,0 +1,178 @@
+// Change Primary (light) to #485261
+// Change Primary (dark) to #1f242a
+// Change Secondary (light) to #f7f7f7
+// Change Secondary (dark) to #f2f2f2
+
+// Copy and paste the rest of this into custom styles.
+
+.layout #layout-mainmenu.navbar {
+    background-color: #FFF;
+    border-bottom: 1px solid #DDD;
+}
+.layout #layout-mainmenu.navbar ul li {
+    text-align: center;
+    padding: 0 15px;
+    margin-right: 3px;
+}
+.layout #layout-mainmenu.navbar ul li a {
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.layout #layout-mainmenu.navbar ul li a i {
+    color: #009688;
+    font-size: 2rem;
+    display: block;
+    margin: 0;
+    padding-bottom: 20px;
+}
+.layout #layout-mainmenu.navbar ul li.preview a i {
+    padding-bottom: 0;
+}
+.layout #layout-mainmenu.navbar ul li.account a {
+    padding: 20px;
+}
+.layout #layout-mainmenu.navbar ul li.active,
+.layout #layout-mainmenu.navbar ul li.highlight,
+.layout #layout-mainmenu.navbar ul li:hover{
+    background-color: #EDEDED;
+    color: inherit !important;
+}
+.layout #layout-mainmenu.navbar ul li.active a,
+.layout #layout-mainmenu.navbar ul li.highlight a{
+    color: inherit !important;
+}
+.layout #layout-mainmenu.navbar ul li .mainmenu-accountmenu{
+    background-color: #FFF;
+}
+.layout #layout-mainmenu.navbar ul li .mainmenu-accountmenu:after{
+    border-bottom-color: #FFF;
+}
+.layout #layout-mainmenu.navbar ul li .mainmenu-accountmenu li {
+    border-bottom: 1px solid transparent;
+}
+.layout #layout-mainmenu.navbar ul li .mainmenu-accountmenu li:hover {
+    background-color: #EDEDED !important;
+    border-bottom-color: #CCC;
+}
+.layout #layout-mainmenu.navbar ul li .mainmenu-accountmenu li.divider{
+    background-color: #CCC;
+}
+.layout #layout-mainmenu.navbar ul li .mainmenu-accountmenu li.divider+li{
+    background-color: #555555;
+    color: #FFF;
+}
+.layout #layout-mainmenu.navbar ul li .mainmenu-accountmenu li.divider+li:hover {
+    background-color: #666 !important;
+    border-bottom-color: transparent;
+}
+.layout #layout-mainmenu.navbar ul li .mainmenu-accountmenu li.divider+li:hover a {
+    color: #FFF !important;
+}
+
+/* SIDENAV */
+.sidenav-tree, #layout-sidenav {
+    border-right: 1px solid #DDD;
+}
+.sidenav-tree ul.top-level > li > div.group h3 {
+    background-color: #009688;
+}
+.sidenav-tree ul.top-level > li[data-status="collapsed"] > div.group h3{
+    background-color: #F2F2F2;
+}
+.sidenav-tree ul.top-level > li > div.group h3{
+    color: #FFF;
+}
+.sidenav-tree ul.top-level > li[data-status="collapsed"] > div.group h3,
+.sidenav-tree ul.top-level > li[data-status="collapsed"] > ul li a span.header{
+    color: #777;
+}
+.sidenav-tree ul.top-level > li > ul li.active a {
+    background-color: transparent;
+}
+.sidenav-tree ul.top-level > li > ul li.active a span.header,
+.sidenav-tree ul.top-level > li > ul li.active a span.description,
+.sidenav-tree ul.top-level > li > ul li a,
+.sidenav-tree ul.top-level > li > ul li a span.header,
+.sidenav-tree ul.top-level > li > ul li a span.description{
+    color: #777;
+}
+.sidenav-tree ul.top-level > li > div.group h3::before {
+    color: #FFF;
+}
+.sidenav-tree ul.top-level > li[data-status="collapsed"] > div.group h3::before {
+    color: #009688;
+}
+.sidenav-tree ul.top-level > li > ul li.active {
+    background-color: #E0E0E0;
+}
+.sidenav-tree ul.top-level > li[data-status="expanded"] > div.group h3{
+    background-color: #009688;
+    color: #FFF;
+}
+.sidenav-tree ul.top-level > li[data-status="expanded"] > div.group h3:before {
+    color: #FFF;
+}
+.sidenav-tree ul.top-level > li > ul li a i {
+    color: #009688;
+}
+
+/* SIDENAV SMALL */
+#layout-sidenav ul li a {
+    color: #777;
+}
+#layout-sidenav ul li a i {
+    color: #009688;
+}
+#layout-sidenav ul li.active, #layout-sidenav ul li:hover {
+    background-color: #009688;
+}
+
+.control-scrollpanel {
+    background-color: #E5E5E5;
+}
+.responsive-sidebar .form-sidebar, #layout-side-panel {
+    border-left: 1px solid #DDD;
+}
+.control-breadcrumb li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    color: #D5DDE2;
+    letter-spacing: 0.05em;
+}
+.control-tabs > ul.nav-tabs > li a, .control-tabs > div > ul.nav-tabs > li a, .control-tabs > div > div > ul.nav-tabs > li a {
+    border-left: none !important;
+    border-top: none !important;
+    border-right: none !important;
+    padding: 0 0 10px 0;
+    color: #00BCD4;
+    background: #f9f9f9;
+    font-weight: 400;
+    overflow: hidden;
+}
+.btn-primary {
+    color: #ffffff;
+    background-color: #00BCD4;
+    border-color: #029BAE;
+}
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open .dropdown-toggle.btn-primary {
+    color: #ffffff;
+    background-color: #F44336;
+    border-color: #009688;
+}
+treeview ol > li > div:hover {
+    background-color: #009688 !important;
+}
+body.outer .layout > .layout-row > .layout-cell .outer-form-container h2 {
+    font-size: 18px;
+    margin: 20px 0;
+    color: #272A33;
+}
+@media (max-width: 769px) {
+nav#layout-mainmenu.navbar .menu-toggle {
+    display: inline-block;
+    color: #00BCD4 !important;
+    font-weight: 600;
+}
+}

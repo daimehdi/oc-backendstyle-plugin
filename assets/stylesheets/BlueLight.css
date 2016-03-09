@@ -1,0 +1,173 @@
+@import url("http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css");
+.layout #layout-mainmenu.navbar {
+  border-bottom: 1px solid #dddddd;
+  background-color: #007aff;
+}
+.layout #layout-mainmenu.navbar ul li {
+  padding: 0 15px;
+  margin-right: 3px;
+  text-align: center;
+}
+.layout #layout-mainmenu.navbar ul li a {
+  font-weight: 400;
+  text-transform: uppercase;
+  font-size: 1.3rem;
+  color: #ffffff;
+}
+.layout #layout-mainmenu.navbar ul li a i {
+  display: block;
+  padding-bottom: 20px;
+  margin: 0;
+  font-size: 2rem;
+  color: rgba(255, 255, 255, 0.7);
+}
+.layout #layout-mainmenu.navbar ul li.preview a i {
+  padding-bottom: 0;
+}
+.layout #layout-mainmenu.navbar ul li.account a {
+  padding: 20px;
+}
+.layout #layout-mainmenu.navbar ul li.active,
+.layout #layout-mainmenu.navbar ul li.highlight,
+.layout #layout-mainmenu.navbar ul li:hover {
+  background-color: #0062cc;
+}
+.layout #layout-mainmenu.navbar ul li.active a {
+  padding-top: 0.4rem;
+}
+.layout #layout-mainmenu.navbar ul li.active a i {
+  font-size: 3rem;
+}
+.layout #layout-mainmenu.navbar ul li .mainmenu-accountmenu {
+  background-color: #ffffff;
+}
+.layout #layout-mainmenu.navbar ul li .mainmenu-accountmenu li {
+  border-bottom: 1px solid transparent;
+}
+.layout #layout-mainmenu.navbar ul li .mainmenu-accountmenu li > a {
+  color: #999999 !important;
+}
+.layout #layout-mainmenu.navbar ul li .mainmenu-accountmenu li:hover {
+  border-bottom-color: #d9d9d9;
+  background-color: #d9d9d9 !important;
+}
+.layout #layout-mainmenu.navbar ul li .mainmenu-accountmenu li:hover > a {
+  color: #737373 !important;
+}
+.layout #layout-mainmenu.navbar ul li .mainmenu-accountmenu li.divider {
+  background-color: #d9d9d9;
+}
+.layout #layout-mainmenu.navbar ul li .mainmenu-accountmenu li.divider + li {
+  background-color: #b3b3b3;
+}
+.layout #layout-mainmenu.navbar ul li .mainmenu-accountmenu li.divider + li > a {
+  color: #737373 !important;
+}
+.layout #layout-mainmenu.navbar ul li .mainmenu-accountmenu li.divider + li:hover {
+  border-bottom-color: transparent;
+  background-color: #999999 !important;
+}
+.layout #layout-mainmenu.navbar ul li .mainmenu-accountmenu li.divider + li:hover a {
+  color: #4d4d4d !important;
+}
+.layout #layout-mainmenu.navbar ul li .mainmenu-accountmenu:after {
+  border-bottom-color: #ffffff;
+}
+.sidenav-tree,
+#layout-sidenav {
+  border-right: 1px solid #ddd;
+}
+.sidenav-tree ul.top-level > li > div.group {
+  border-top: 1px solid #cccccc;
+}
+.sidenav-tree ul.top-level > li > div.group h3 {
+  color: #ffffff;
+  background-color: #007aff;
+}
+.sidenav-tree ul.top-level > li > div.group h3:before {
+  color: #ffffff;
+}
+.sidenav-tree ul.top-level > li > ul li.active a span.header,
+.sidenav-tree ul.top-level > li > ul li.active a span.description,
+.sidenav-tree ul.top-level > li > ul li.active,
+.sidenav-tree ul.top-level > li > ul li:hover {
+  background-color: #d9d9d9;
+}
+.sidenav-tree ul.top-level > li > ul li.active a span.header a,
+.sidenav-tree ul.top-level > li > ul li.active a span.description a,
+.sidenav-tree ul.top-level > li > ul li.active a,
+.sidenav-tree ul.top-level > li > ul li:hover a {
+  background-color: transparent;
+  color: #333333;
+}
+.sidenav-tree ul.top-level > li > ul li.active a span.header a span.header,
+.sidenav-tree ul.top-level > li > ul li.active a span.description a span.header,
+.sidenav-tree ul.top-level > li > ul li.active a span.header,
+.sidenav-tree ul.top-level > li > ul li:hover a span.header,
+.sidenav-tree ul.top-level > li > ul li.active a span.header a span.description,
+.sidenav-tree ul.top-level > li > ul li.active a span.description a span.description,
+.sidenav-tree ul.top-level > li > ul li.active a span.description,
+.sidenav-tree ul.top-level > li > ul li:hover a span.description {
+  color: #333333;
+}
+.sidenav-tree ul.top-level > li > ul li a,
+.sidenav-tree ul.top-level > li > ul li a span.header,
+.sidenav-tree ul.top-level > li > ul li a span.description {
+  color: #666666;
+}
+.sidenav-tree ul.top-level > li > ul li a {
+  background-color: #ffffff;
+}
+.sidenav-tree ul.top-level > li > ul li a i {
+  color: #007aff;
+}
+.sidenav-tree ul.top-level > li[data-status="collapsed"] > div.group h3 {
+  background-color: #e6e6e6;
+}
+.sidenav-tree ul.top-level > li[data-status="collapsed"] > div.group h3:before {
+  color: #007aff;
+}
+.sidenav-tree ul.top-level > li[data-status="collapsed"] > div.group h3,
+.sidenav-tree ul.top-level > li[data-status="collapsed"] > ul li a span.header {
+  color: #333333;
+}
+.sidenav-tree ul.top-level > li[data-status="expanded"] > div.group h3 {
+  color: #ffffff;
+  background-color: #007aff;
+}
+.sidenav-tree ul.top-level > li[data-status="expanded"] > div.group h3:before {
+  color: #ffffff;
+}
+#layout-sidenav {
+  padding: 0 0 10px 0;
+}
+#layout-sidenav ul li a {
+  color: #4d4d4d;
+}
+#layout-sidenav ul li a i {
+  color: #666666;
+}
+#layout-sidenav ul li.active,
+#layout-sidenav ul li:hover {
+  background-color: #007aff;
+}
+#layout-sidenav ul li.active a,
+#layout-sidenav ul li:hover a,
+#layout-sidenav ul li.active a > i,
+#layout-sidenav ul li:hover a > i {
+  color: #ffffff;
+}
+.control-scrollpanel {
+  background-color: #f7f7f7;
+}
+.responsive-sidebar .form-sidebar,
+#layout-side-panel {
+  border-left: 1px solid #ddd;
+}
+.fancy-layout .form-tabless-fields label {
+  color: rgba(255, 255, 255, 0.7);
+}
+.fancy-layout .form-buttons .btn {
+  color: #ffffff;
+  opacity: 0.7;
+}
