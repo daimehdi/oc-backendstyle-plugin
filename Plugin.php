@@ -2,6 +2,7 @@
 
 use App;
 use File;
+use Lang;
 use Event;
 use Flash;
 use Backend;
@@ -16,10 +17,11 @@ class Plugin extends PluginBase
     public function pluginDetails()
     {
         return [
-            'name'        => 'Backend Style Changer',
-            'description' => 'Changes the skin of backend with a pre-defined stylesheet',
-            'author'      => 'Uxms Devs',
-            'icon'        => 'icon-object-group'
+            'name'        => 'uxms.backendstyle::lang.app.name',
+            'description' => 'uxms.backendstyle::lang.app.desc',
+            'author'      => 'uXMs Devs',
+            'icon'        => 'icon-object-group',
+            'homepage'    => 'https://uxms.net/'
         ];
     }
 
@@ -57,7 +59,7 @@ class Plugin extends PluginBase
 
         BrandSettings::set('custom_css', $style);
 
-        Flash::success('Skin changed');
+        Flash::success(Lang::get('uxms.backendstyle::lang.app.success'));
         return Redirect::refresh();
     }
 

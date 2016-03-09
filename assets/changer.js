@@ -1,5 +1,3 @@
-//------------------ Theme Setting --------------------//
-
 jQuery(function($){
 
     var switcher = ' \
