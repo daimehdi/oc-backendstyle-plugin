@@ -13,3 +13,5 @@ v1.0.0 is shared with 6 different options.
 * [Alvaro Cánepa](https://octobercms.com/author/Planetadeleste) - Source: [Alvaro Canepa's OC Bakend Styles](https://bitbucket.org/planetadeleste/oc-bakend-styles)
 * [Pastorryanhayden11094](https://octobercms.com/forum/user/pastorryanhayden11094) - Source: [OC Forum](https://octobercms.com/forum/post/backend-style-light-skin?page=1#post-11855)
 
+### Logo
+swap by Evan Shuster from the Noun Project

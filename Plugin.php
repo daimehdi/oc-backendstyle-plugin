@@ -5,6 +5,7 @@ use File;
 use Lang;
 use Event;
 use Flash;
+use Config;
 use Backend;
 use Redirect;
 use Backend\Classes\Controller;
@@ -31,8 +32,10 @@ class Plugin extends PluginBase
             return;
 
         Event::listen('backend.page.beforeDisplay', function($controller, $action, $params) {
-            $controller->addJs('../plugins/uxms/backendstyle/assets/changer.js');
-            $controller->addCss('../plugins/uxms/backendstyle/assets/changer.css');
+            $appUrl = Config::get('app.url');
+
+            $controller->addJs($appUrl.'/plugins/uxms/backendstyle/assets/changer.js');
+            $controller->addCss($appUrl.'/plugins/uxms/backendstyle/assets/changer.css');
         });
 
         Controller::extend(function($controller) {

@@ -1,7 +1,7 @@
 /* Theme Setting */
 #uxms-backend-theme-setting {
     position: absolute;
-    top: 142px;
+    top: 63px;
     right: 0;
     z-index: 99;
     white-space: nowrap;
@@ -10,7 +10,7 @@
     display: inline-block;
     color: #999;
     vertical-align: top;
-    background-color: #fff;
+    background-color: #e7e7e7;
     padding: 10px;
 }
 #uxms-backend-theme-setting > a:hover {
@@ -46,7 +46,6 @@
     display: inline-block;
     font-size: 15px;
     color: #000;
-    margin-top: 5px;
 }
 #uxms-backend-theme-setting > ul > li > a.hidden-inline-xs {
     margin-left: 15px;
