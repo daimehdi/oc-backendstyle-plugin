@@ -1,3 +1,4 @@
 1.0.0: Plugin init
 1.0.1: Added stylesheets
 1.0.2: Fixed assets Url and appearing on sub-pages
+1.0.3: SSL Backend fix
