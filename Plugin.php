@@ -10,7 +10,7 @@ use Backend;
 use Request;
 use Redirect;
 use Backend\Classes\Controller;
-use Backend\Models\BrandSettings;
+use Backend\Models\BrandSetting;
 use System\Classes\PluginBase;
 
 
@@ -69,7 +69,7 @@ class Plugin extends PluginBase
             $style = File::get($selectedSkinfile);
         }
 
-        BrandSettings::set('custom_css', $style);
+        BrandSetting::set('custom_css', $style);
 
         Flash::success(Lang::get('uxms.backendstyle::lang.app.success'));
         return Redirect::refresh();
